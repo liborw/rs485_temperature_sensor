@@ -55,7 +55,9 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "solder_mask_bridge|159600000|92750000|14392f99-256c-4b91-bbdb-b171264f1924|0e9995f4-ff77-4b5f-9727-ae7a387c9c58"
+      ],
       "meta": {
         "version": 2
       },
@@ -113,7 +115,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.0,
+        "min_copper_edge_clearance": 0.25,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
